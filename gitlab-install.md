@@ -50,22 +50,22 @@ $ sh start.sh
 地址：http://gitlab.mooc.com:8080/  
 
 #### 2. 设置管理员密码
-首先根据提示输入管理员密码，这个密码是管理员用户的密码。对应的用户名是root，用于以管理员身份登录Gitlab。
+首先根据提示输入管理员密码，这个密码是管理员用户的密码。对应的用户名是root，用于以管理员身份登录Gitlab。  
 <img src="https://raw.githubusercontent.com/liuyi01/images/master/rootpass.png" width="50%" height="50%"/>
 
 #### 3. 创建账号
-设置好密码后去注册一个普通账号
+设置好密码后去注册一个普通账号  
 <img src="https://raw.githubusercontent.com/liuyi01/images/master/register.png" width="50%" height="50%"/>
 
 #### 4. 创建项目
-注册成功后会跳到首页，我们创建一个项目，名字大家随意
+注册成功后会跳到首页，我们创建一个项目，名字大家随意  
 <img src="https://raw.githubusercontent.com/liuyi01/images/master/create.png" width="50%" height="50%"/>
 
 #### 5. 添加ssh key
-项目建好了，我们加一个ssh key，以后本地pull/push就简单啦
-<img src="https://raw.githubusercontent.com/liuyi01/images/master/addssh.png" />
+项目建好了，我们加一个ssh key，以后本地pull/push就简单啦  
+<img src="https://raw.githubusercontent.com/liuyi01/images/master/addssh.png" width="70%" height="70%"/>
 
-首先去到添加ssh key的页面
+首先去到添加ssh key的页面  
 <img src="https://raw.githubusercontent.com/liuyi01/images/master/sshkey.png" />
 
 然后拿到我们的sshkey 贴到框框里就行啦
@@ -80,8 +80,8 @@ $ cat ~/.ssh/id_rsa.pub
 ```
 
 #### 6. 测试一下
-点开我们刚创建的项目，复制ssh的地址
-<img src="https://raw.githubusercontent.com/liuyi01/images/master/gitindex.png" />
+点开我们刚创建的项目，复制ssh的地址  
+<img src="https://raw.githubusercontent.com/liuyi01/images/master/gitindex.png" width="60%" height="60%" />
 
 添加个文件试试（我的项目叫test）
 ```bash
@@ -95,7 +95,7 @@ $ git commit -m "test"
 $ git push origin master
 ```
 
-去gitlab上看看
+去gitlab上看看  
 <img src="https://raw.githubusercontent.com/liuyi01/images/master/file.png" width="50%" height="50%"/>
 
 到这我们的gitlab就齐活啦！愉快的使用吧~
